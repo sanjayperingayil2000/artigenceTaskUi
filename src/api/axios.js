@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: "https://artigence-task-backend.vercel.app/", // change to your deployed backend URL
+  baseURL: "http://artigence-task-backend.vercel.app", // http://localhost:5000/api change to your deployed backend URL
   headers: {
     "Content-Type": "application/json"
   }
